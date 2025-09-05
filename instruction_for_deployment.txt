@@ -10,7 +10,7 @@ Need to create ECR.
 First need to create a user.
 Then assign the policy what are the resource application going to use to the created user. 
 Then create access key and secrete key, it will make connection between github action and AWS cloud ECR, ECS services.
-
+In the user permission, Incline policy need to add.
 3.1 fetch the credential from the IAM USER: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
 3.2 these credential keep inside your GitHub secretes
 4. AWS Secrete Manager: keep your API keys over there
