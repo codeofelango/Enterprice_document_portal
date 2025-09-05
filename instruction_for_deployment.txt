@@ -6,6 +6,7 @@ Steps for running the App over the ECS:
 1.2 you will get updated utils/model_loader.py
 2. AWS Account
 3. AWS IAM User
+First need to create a user.
 3.1 fetch the credential from the IAM USER: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
 3.2 these credential keep inside your GitHub secretes
 4. AWS Secrete Manager: keep your API keys over there
